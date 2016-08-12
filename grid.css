@@ -1,0 +1,47 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(colored_grass.png);
+}
+
+h1 {
+	text-align: center;
+}
+
+.wholeButton {
+	width: 960px;
+	margin: 0 auto;
+}
+
+button {
+	display: inline-block;
+}
+
+.container {
+	margin-top: 10px;
+}
+
+.square, th, td{
+	border: 1px black solid;
+}
+
+.square {
+	border-collapse: collapse;
+	margin: 0 auto;
+	table-layout: fixed;
+	width: 960px;
+	height: 960px;
+}
+
+img {
+	width: 20px;
+	height: 20px;
+}
+
+p {
+	margin-right: 10px;
+}
+
